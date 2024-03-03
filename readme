@@ -1,0 +1,9 @@
+`docker images` --
+`docker image rm { id }` --
+`docker build .` --
+`docker build -t noda_test-server:test-1 .` --
+`docker run -p 4000:4000 { id }` --
+
+запросы на сервер
+http://localhost:3000/api/contacts
+http://localhost:3000/api/contacts/1
